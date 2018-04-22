@@ -6,7 +6,10 @@ class ApplicationController < ActionController::Base
   def current_user
     session[:name]
   end
+<<<<<<< HEAD
   def require_login
     redirect_to controller: 'sessions', action: 'new' unless session.include? :name
   end
+=======
+>>>>>>> b27e1aea4961a650cd9a404824d765d9e6e86575
 end

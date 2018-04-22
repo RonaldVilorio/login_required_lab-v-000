@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+<<<<<<< HEAD
 
   def new
   end
@@ -11,4 +12,6 @@ class SessionsController < ApplicationController
     session.delete :name if current_user
 
   end
+=======
+>>>>>>> b27e1aea4961a650cd9a404824d765d9e6e86575
 end

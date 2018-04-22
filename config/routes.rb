@@ -55,6 +55,9 @@ Rails.application.routes.draw do
   #   end
 
   get "secrets/show", to: 'secrets#show'
+<<<<<<< HEAD
   resources :sessions, only: [:new,:create]
   post "sessions/destroy", to: 'sessions#destroy'
+=======
+>>>>>>> b27e1aea4961a650cd9a404824d765d9e6e86575
 end
